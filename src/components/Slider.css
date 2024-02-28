@@ -1,0 +1,86 @@
+/* //////////// Slider Component body //////// */
+.slider {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+
+/* ////////////////// Slider Button//////////////// */
+.arrow {
+    background-color: whitesmoke;
+    height: fit-content;
+    margin: auto 0 auto 0;
+    cursor: pointer;
+    transition: all 300ms ease-in;
+}
+
+.arrow:hover {
+    background-color: aquamarine;
+    transform: scale(1.2);
+    transition: all 300ms ease-in;
+}
+
+
+
+
+/* //////////// Slide-Conatiner containes all list elements ////////////// */
+.list-conatiner {
+    overflow: hidden;
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    margin: auto;
+    border-style: groove;
+    border: 2px solid grey;
+    border-radius: 10%;
+}
+
+
+/* //////////////////////Slide card /////////////////// */
+.list-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20rem;
+    border-radius: 10%;
+    align-items: center;
+    transform: translateX(-20rem);
+    transition: all 400ms ease-in;
+}
+
+.list-card img {
+    width: 20rem;
+    height: 16rem;
+    border-radius: 10%;
+}
+
+.list-card h4 {
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+/* /////////////////// Responsive code //////////////////// */
+@media (max-width:786px) {
+    .slider {
+        width: 100%;
+    }
+
+    .list-card,
+    .list-conatiner,
+    .list-card img {
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .list-card img {
+        width: 13rem;
+        height: 10rem;
+    }
+}
