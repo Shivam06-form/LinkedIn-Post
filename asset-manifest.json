@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/http//Shivam06-form.github.io/LinkedIn-Post/static/css/main.20eb8f56.css",
-    "main.js": "/http//Shivam06-form.github.io/LinkedIn-Post/static/js/main.bfe1b237.js",
-    "index.html": "/http//Shivam06-form.github.io/LinkedIn-Post/index.html",
-    "main.20eb8f56.css.map": "/http//Shivam06-form.github.io/LinkedIn-Post/static/css/main.20eb8f56.css.map",
-    "main.bfe1b237.js.map": "/http//Shivam06-form.github.io/LinkedIn-Post/static/js/main.bfe1b237.js.map"
+    "main.css": "/LinkedIn-Post/static/css/main.20eb8f56.css",
+    "main.js": "/LinkedIn-Post/static/js/main.bfe1b237.js",
+    "index.html": "/LinkedIn-Post/index.html",
+    "main.20eb8f56.css.map": "/LinkedIn-Post/static/css/main.20eb8f56.css.map",
+    "main.bfe1b237.js.map": "/LinkedIn-Post/static/js/main.bfe1b237.js.map"
   },
   "entrypoints": [
     "static/css/main.20eb8f56.css",
